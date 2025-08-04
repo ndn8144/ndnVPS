@@ -1,0 +1,13 @@
+{
+  "name": "Multi-Env NDN-Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "features": {},
+  "postCreateCommand": "echo '✔️ NDN-Dev Container ready!'",
+  "remoteUser": "dev"
+}
